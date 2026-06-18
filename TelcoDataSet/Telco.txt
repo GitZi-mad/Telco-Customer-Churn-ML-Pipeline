@@ -1,0 +1,98 @@
+📞 Customer Churn Analysis Assignment Pack
+🧩 Dataset Telco Customer Churn (Kaggle)
+https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data
+📢 Disclaimer & Expectations
+Dear students,
+
+This assignment series focuses on analyzing customer behavior and predicting churn using the Telco Customer Churn dataset, which contains information about customer demographics, service subscriptions, tenure, and contract details.
+
+Your objectives are to
+
+Explore real-world telecom data and draw insights from customer behavior.
+
+Apply data preprocessing, visualization, and predictive modeling techniques.
+
+Understand how churn prediction helps businesses retain customers and reduce loss.
+
+Deliver data-driven recommendations based on your findings.
+
+Expectation All deliverables must be your own work. You are encouraged to collaborate for discussion but must submit individual analyses and models. Cite any external tools, notebooks, or packages you use.
+
+🧾 Assignment Tasks
+🔹 Assignment 1 Data Exploration and Preparation
+Objective Understand the structure of the Telco churn dataset and prepare it for analysis.
+
+Tasks
+
+Load the dataset and explore variable types (categorical, numerical, target variable).
+
+Identify and address missing values or data inconsistencies (e.g., TotalCharges being non-numeric).
+
+Convert categorical columns into appropriate formats for modeling (e.g., encoding).
+
+Generate summary statistics for customer tenure, charges, and contract types.
+
+Deliverables
+
+A Jupyter Notebook detailing all preprocessing steps.
+
+A markdown section explaining any assumptions or decisions made.
+
+🔹 Assignment 2 Exploratory Data Analysis (EDA)
+Objective Discover patterns and risk factors linked to customer churn.
+
+Tasks
+
+Visualize churn rates across demographics (gender, senior citizen, partner, dependents).
+
+Analyze churn in relation to services (InternetService, TechSupport, OnlineSecurity).
+
+Use bar charts and boxplots to study churn vs. tenure, monthly charges, and contract type.
+
+Identify top 5 variables you believe most influence customer churn.
+
+Deliverables
+
+Visuals (plots, tables) with short captions or explanations.
+
+Summary 3 key insights with potential business impact.
+
+🔹 Assignment 3 Churn Prediction Modeling
+Objective Build a machine learning model to predict whether a customer will churn.
+
+Tasks
+
+Split the dataset into (train-test) sets using stratified sampling.
+
+Train at least two models (e.g., Logistic Regression, Random Forest, or XGBoost).
+
+Compare model performance using accuracy, recall, precision, and F1-score.
+
+Present feature importance rankings and interpret them in business terms. (extra)
+
+Deliverables
+
+Jupyter Notebook with model training, evaluation, and explanation.
+
+ROC curve and confusion matrix visualizations.
+
+Short report which model you'd recommend and why.
+
+🔹 Assignment 4 (Optional Advanced) Churn Cost Simulation & Retention Strategy
+Objective Estimate the business cost of churn and recommend interventions.
+
+Tasks
+
+Calculate the average revenue loss per churned customer.
+
+Simulate customer retention under two strategies (e.g., discount offer vs. loyalty perks).
+
+Estimate how many customers you'd need to retain to break even.
+
+Propose a segmentation strategy (e.g., high-risk + high-value customers).
+
+Deliverables
+
+Simulation results and assumptions.
+
+Retention recommendation memo (1 page max).
